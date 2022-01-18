@@ -16,3 +16,19 @@ tqdm
 matplotlib
 rich
 sagemaker-studio-image-build
+git+https://github.com/aws-samples/smallmatter-package@main#egg=smallmatter
+ipykernel
+ipywidgets
+isort
+
+# NOTE: no wheel yet for python-3.10, so for now fallback to python-3.9.
+torch
+
+# alinux2:
+# - need rust (see: https://github.com/DFKI-NLP/sherlock/issues/30). Install it
+#   with this command: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# - need g++. Install it via `sudo yum install -y gcc-c++`
+#
+# Once installed, do `source $HOME/.cargo/env` to configure current shell.
+# Note that the pip install can take a while to finish.
+transformers
