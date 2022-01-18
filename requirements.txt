@@ -1,1 +1,18 @@
--e .
+aws-cdk.aws-codepipeline
+aws-cdk.aws-dynamodb
+aws-cdk.aws-events-targets
+aws-cdk.aws-lambda-python
+aws-cdk.aws-s3-notifications
+aws-cdk.aws-ssm
+aws-cdk.aws-stepfunctions
+aws-cdk.aws-stepfunctions-tasks
+aws-cdk.core
+boto3
+black
+black-nb
+sagemaker
+amazon-textract-response-parser
+tqdm
+matplotlib
+rich
+sagemaker-studio-image-build

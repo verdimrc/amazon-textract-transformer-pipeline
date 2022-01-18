@@ -1,5 +1,5 @@
 {
-  "python.pythonPath": ".venv/bin/python3",
+  "python.pythonPath": "/home/ec2-user/.pyenv/versions/miniconda3-latest/envs/layoutlm-p310/bin/python",
   "yaml.customTags": [
     "!And",
     "!And sequence",
