@@ -2,4 +2,4 @@
 # SPDX-License-Identifier: MIT-0
 """Load custom inference handlers for model deployment
 """
-from code.inference import *
+from my_code.inference import *

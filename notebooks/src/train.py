@@ -7,7 +7,6 @@ import logging
 import os
 import sys
 
-
 if __name__ == "__main__":
     # If the file is running as a script, we're in training mode and should run the actual training
     # routine (with a little logging setup before any imports, to make sure output shows up ok):
@@ -17,7 +16,7 @@ if __name__ == "__main__":
     )
     logging.basicConfig(handlers=[consolehandler], level=os.environ.get("LOG_LEVEL", logging.INFO))
 
-    from code.train import main
+    from my_code.train import main
 
     main()
 else:
@@ -26,4 +25,4 @@ else:
     # model via SageMaker SDK's Estimator.deploy(), which will carry over the environment variable
     # SAGEMAKER_PROGRAM=train.py from training - causing the server to try and load handlers from
     # here rather than inference.py.
-    from code.inference import *
+    from my_code.inference import *
